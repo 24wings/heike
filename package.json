@@ -1,0 +1,33 @@
+{
+  "name": "hacker",
+  "version": "1.0.0",
+  "description": "本项目用于学习黑客技术,着重于web前端黑客技术",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoonshadow/hacker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoonshadow/hacker/issues"
+  },
+  "homepage": "https://github.com/zoonshadow/hacker#readme",
+  "dependencies": {
+    "@types/cookie-session": "^2.0.32",
+    "@types/express": "^4.0.35",
+    "@types/geoip-lite": "^1.1.29",
+    "@types/node": "^7.0.12",
+    "async": "^2.3.0",
+    "cookie-session": "^2.0.0-beta.1",
+    "express": "^4.15.2",
+    "geoip-lite": "^1.2.0",
+    "libnmap": "^0.3.9",
+    "pcap": "^2.0.1",
+    "pug": "^2.0.0-beta11"
+  }
+}

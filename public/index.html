@@ -1,0 +1,23 @@
+<script>
+    function go() {
+
+        output.value = "aaa";
+        output.appendChild(inserted_div);
+
+        document.getElementById("output").addEventListener('DOMSubtreeModified', function () {
+            for (var i = 0; i < 20; i++) {
+                form.appendChild(document.createElement("input"));
+            }
+        }, false);
+
+        form.reset();
+
+    }
+</script>
+
+<body onload=go()>
+    <div id="inserted_div">foo</div>
+    <form id="form" onchange="eventhandler()">
+        <input type="text" value="foo">
+        <output id="output" oninput="eventhandler()"></output>
+        <input type="text" value="foo">
